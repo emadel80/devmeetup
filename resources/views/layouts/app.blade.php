@@ -22,7 +22,7 @@
 <body>
     <div id="app">
         <v-app>
-            @yield('navbar')
+            @include('layouts.navbar')
 
             <main class="py-4">
                 <v-content class="container d-flex align-items-center min-vh-100">
