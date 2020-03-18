@@ -21,11 +21,15 @@
 </head>
 <body>
     <div id="app">
-        @include('layouts.navbar')
+        <v-app>
+            @yield('navbar')
 
-        <main class="py-4">
-            @yield('content')
-        </main>
+            <main class="py-4">
+                <v-content class="container d-flex align-items-center min-vh-100">
+                    @yield('content')
+                </v-content>
+            </main>
+        </v-app>
     </div>
 </body>
 </html>
