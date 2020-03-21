@@ -31331,3 +31331,7 @@ a.text-dark:focus {
   }
 }
 
+.v-label.theme--light {
+  margin-bottom: 0;
+}
+

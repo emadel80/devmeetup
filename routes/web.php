@@ -14,7 +14,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', 'AppController@index');
-// Route::get('login', 'Auth\LoginController@showLoginForm')->name('login');
 
 Auth::routes();
 
